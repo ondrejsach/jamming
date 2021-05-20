@@ -1,6 +1,6 @@
 let accessToken;
 const clientID = "9c1db48611a646a4b79dca20b120a8e7";
-const redirectUri = "https://ahead-nail.surge.sh";
+const redirectUri = "http://localhost:3000/";
 
 const Spotify = {
     getAccessToken(){

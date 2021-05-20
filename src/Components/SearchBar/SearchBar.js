@@ -20,6 +20,8 @@ class SearchBar extends React.Component{
     }
 
     handleTermChange(event){
+        //event.stopPropagation()
+        //event.preventDefault()
         this.setState({term: event.target.value})
     }
 

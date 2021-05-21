@@ -1,6 +1,7 @@
 let accessToken;
-const clientID = "9c1db48611a646a4b79dca20b120a8e7";
-const redirectUri = "https://ahead-nail.surge.sh/";
+//const clientID = "9c1db48611a646a4b79dca20b120a8e7";  //ondra
+const clientID = "d737e9512a23460098e12af784ccd03b"; //alex
+const redirectUri = "https://ahead-nail.surge.sh";
 
 const Spotify = {
     getAccessToken(){
